@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+
+#hero{
+color: #F9F6EE;
+height: 800px;
+background-image: url("/images/beach2.jpg");
+background-size: cover;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.hero-head{
+    color: #BCD8C1;
+    background: #EE8508;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.hero-para{
+    background:#DE6705 ;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 24px;
+    color: #BCD8C1;
+}
+
+/*RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557*/ 
+
+/*ACTIVITYSECTION*/
+
+#activities{
+    background-color:#F1FAEE;
+    padding: 30px 0;
+  
+}
+
+.activity-head{
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px 0 50px 0;
+    font-size: 28px;
+}
+
+.activity-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.activity-wrapper{
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.activity-desc{
+    padding: 20px;
+}
+
+/*GUIDESECTION*/ 
+
+#guide{
+    margin-top: -16px;
+    background-color: white  ;
+    
+}
+
+.guide-wrap{
+    width: 500px;
+    margin: 50px auto;
+    background-color: #EE8508;
+    padding: 50px;
+   display: flex;
+   align-items: center;
+    border-radius: 25px;
+    border-bottom: 15px solid #39A9DB;
+}
+
+.mickey{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #252627 ;
+    box-shadow: 2px 5px 6px black;
+}
+
+
+.guide-desc{
+    padding: 20px;
+    width: 50%;
+    margin-left: 32px;
+    text-align: center;
+}
+
+.about{
+padding: 10px;
+display: flex;
+justify-content: center;
+}
